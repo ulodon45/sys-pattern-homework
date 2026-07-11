@@ -20,3 +20,13 @@
 <img src = "img/playbook1.png" width = 100%>
 
 <img src = "img/kafka.png" width = 100%>
+
+<img src = "img/playbook2.png" width = 100%>
+
+<img src = "img/tuned.png" width = 100%>
+
+<img src = "img/playbook3.png" width = 100%>
+
+<img src = "img/motd.png" width = 100%>
+
+<img src = "img/motd1.png" width = 100%>

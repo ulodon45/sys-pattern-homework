@@ -1,0 +1,20 @@
+---
+- name: Configure MOTD
+  hosts: local
+  become: true
+
+  tasks:
+    - name: Update system MOTD
+      ansible.builtin.copy:
+        dest: /etc/motd
+        content: "{{ motd_text }}"
+        owner: root
+        group: root
+        mode: "0644"
+        content: |
+          =====================================
+          Hostname: {{ ansible_hostname }}
+          IP address: {{ ansible_default_ipv4.address }}
+
+          {{ admin_greeting }}
+          =====================================
